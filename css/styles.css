@@ -1,0 +1,94 @@
+:root{
+   --fontMono: 'Space Mono', monospace;
+   --fontInconsolata:'Inconsolata', monospace;
+   --gray: #333333;
+   --orange: #FF6D5B;
+}
+
+h2{
+    font-family: var(--fontInconsolata);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+h1{
+    font-family: var(--fontMono);
+    font-size:40px;
+    margin:0;
+}
+@media(min-width:420px){
+    h1{
+        font-size:64px;
+    } 
+}
+
+p{
+    font-family: var(--fontMono);
+    font-size: 18px;
+    font-weight: 400;
+}
+@media(min-width:420px){
+    p{
+        font-size: 24px;    
+    }
+}
+
+img{
+    max-width: 90%;
+    max-height: 100%;
+}
+
+.img{
+    text-align: center;
+}
+
+.conteiner{
+    margin: 20px;
+}
+
+@media(min-width:420px){
+    .conteiner{
+        display: flex;
+        height: 400px;
+    }
+    .conteiner .img{
+        flex-basis: 50%;
+    }
+    .conteiner .message{
+        flex-basis: 50%;
+    }
+    .message{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+}
+
+.message p{
+    max-width: 400px;
+}
+/**Button*/
+.btn{
+    background-color: var(--gray);
+    font-family: var(--fontMono);
+    font-size: 14px;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+}
+@media(min-width:420px){
+    .btn{
+        display: inline-block;
+    }
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+.btn a:hover{
+    color: var(--orange);
+}
+
+
