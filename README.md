@@ -71,5 +71,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 
-- GitHub [@your-username](https://github.com/aragonenred)
-- Twitter [@your-twitter](https://twitter.com/Eduito5)
+- GitHub [@aragonenred](https://github.com/aragonenred)
+- Twitter [@eduito5](https://twitter.com/Eduito5)
